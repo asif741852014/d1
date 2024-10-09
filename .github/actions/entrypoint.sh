@@ -1,0 +1,1 @@
+echo " hai my name is from input: $INPUT_JUSTANAME"

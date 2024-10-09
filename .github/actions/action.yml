@@ -1,0 +1,12 @@
+name: asif
+description: ll
+inputs:
+  justaname:
+    description: name
+    required: true
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+  - ${{ inputs.justaname }}
+    
