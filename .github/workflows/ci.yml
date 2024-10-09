@@ -2,7 +2,7 @@ name: check
 on: push
 jobs:
   job1:
-    runs-n: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: step1
       uses: actions/checkout@v4
